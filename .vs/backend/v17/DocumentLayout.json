@@ -1,14 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\furka\\source\\repos\\CommercialApp\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\source\\repos\\commercialapp\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\controllers\\getcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:controllers\\getcompaniescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\models\\database\\tablemodels\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:models\\database\\tablemodels\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\models\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:models\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\source\\repos\\commercialapp\\backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\models\\database\\tablemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:models\\database\\tablemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\models\\database\\databasemodels\\gwsistemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:models\\database\\databasemodels\\gwsistemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\models\\database\\tablemodels\\userauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:models\\database\\tablemodels\\userauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|c:\\users\\furka\\commerceapp\\commerceapp_backend\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7DBB50D6-88C2-406B-AC6C-C36E6730CE5D}|backend.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +66,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\CommercialApp\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\CommercialApp\\backend\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\LoginService.cs",
+              "RelativeDocumentMoniker": "Models\\LoginService.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\LoginService.cs",
+              "RelativeToolTip": "Models\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T12:59:55.808Z",
+              "WhenOpened": "2025-05-15T09:00:23.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Database\\TableModels\\Company.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\Company.cs",
+              "RelativeToolTip": "Models\\Database\\TableModels\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:20:09.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:59:55.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:19:06.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetCompaniesController.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\GetCompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GetCompaniesController.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\GetCompaniesController.cs",
+              "RelativeToolTip": "Controllers\\GetCompaniesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:31:25.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\furka\\source\\repos\\CommercialApp\\backend\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\furka\\source\\repos\\CommercialApp\\backend\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:19:06.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T10:52:23.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:35:34.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GWSistemDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\DatabaseModels\\GWSistemDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Database\\DatabaseModels\\GWSistemDbContext.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\DatabaseModels\\GWSistemDbContext.cs",
+              "RelativeToolTip": "Models\\Database\\DatabaseModels\\GWSistemDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:02:59.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Database\\TableModels\\User.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\User.cs",
+              "RelativeToolTip": "Models\\Database\\TableModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T09:17:57.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T11:35:18.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserAuthorization.cs",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\UserAuthorization.cs",
+              "RelativeDocumentMoniker": "Models\\Database\\TableModels\\UserAuthorization.cs",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\Models\\Database\\TableModels\\UserAuthorization.cs",
+              "RelativeToolTip": "Models\\Database\\TableModels\\UserAuthorization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:20:04.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\furka\\CommerceApp\\CommerceApp_backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T09:00:29.901Z"
             }
           ]
         }
