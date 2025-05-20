@@ -1,7 +1,5 @@
 using backend.Models;
 using backend.Models.Database.DatabaseModels;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.CookiePolicy;
 
 namespace backend
 {
@@ -14,18 +12,17 @@ namespace backend
             // Services
             builder.Services.AddScoped<LoginService>();
             builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            builder.Services.AddSingleton<SistemDbContext>();
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<GWSistemDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("GWSistemConnection")));
 
             builder.Services.AddCors(options =>
             {
                 options.AddDefaultPolicy(policy =>
                 {
-                    policy.WithOrigins("http://localhost:3000")  // Frontend adresin
+                    policy.WithOrigins("http://localhost:3000")  // Frontend adresi
                           .AllowAnyHeader()
                           .AllowAnyMethod()
-                          .AllowCredentials();   // Cookie gönderimi için zorunlu
+                          .AllowCredentials();
                 });
             });
 
@@ -35,11 +32,11 @@ namespace backend
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
 
-                // Eðer HTTPS kullanýyorsan bunu kullan (Örn: https://localhost:7030)
-                options.Cookie.SameSite = SameSiteMode.None;      // Cross-site cookie için önemli
+                // Eï¿½er HTTPS kullanï¿½yorsan bunu kullan (ï¿½rn: https://localhost:7030)
+                options.Cookie.SameSite = SameSiteMode.None;      // Cross-site cookie iï¿½in ï¿½nemli
                 options.Cookie.SecurePolicy = CookieSecurePolicy.Always;  // HTTPS zorunluysa
 
-                // Eðer HTTPS kullanmýyorsan bunu kullan:
+                // Eï¿½er HTTPS kullanmï¿½yorsan bunu kullan:
                 // options.Cookie.SecurePolicy = CookieSecurePolicy.None;
             });
 
@@ -56,8 +53,8 @@ namespace backend
 
             app.UseRouting();
 
-            app.UseCors();       // CORS middleware burada olmalý
-            app.UseSession();    // Session middleware CORS'tan sonra, Auth'dan önce
+            app.UseCors();       // CORS middleware burada olmalï¿½
+            app.UseSession();    // Session middleware CORS'tan sonra, Auth'dan ï¿½nce
             app.UseAuthorization();
 
             app.MapControllerRoute(

@@ -17,7 +17,7 @@ namespace backend.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
-            var user = await _loginService.LoginUser(request.Username, request.Password);
+            var user = await _loginService.LoginUserAsync(request.Username, request.Password);
 
             if (user != null)
                 return Ok(user.ID);

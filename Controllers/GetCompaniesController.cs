@@ -1,16 +1,16 @@
 ﻿using backend.Models.Database.DatabaseModels;
+using Dapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 [Route("api/[controller]")]
 [ApiController]
 public class GetCompaniesController : ControllerBase
 {
-    private readonly GWSistemDbContext _gwSistemDbContext;
+    private readonly SistemDbContext _sistemDbContext;
 
-    public GetCompaniesController(GWSistemDbContext gwSistemDbContext)
+    public GetCompaniesController(SistemDbContext sistemDbContext)
     {
-        _gwSistemDbContext = gwSistemDbContext;
+        _sistemDbContext = sistemDbContext;
     }
 
     [HttpGet("{currentUserID}")]
@@ -18,18 +18,25 @@ public class GetCompaniesController : ControllerBase
     {
         if (currentUserID <= 0)
             return BadRequest("Geçersiz kullanıcı ID");
+        
+        var query = @"
+        SELECT DISTINCT c.ADI
+        FROM KULLANICI u
+        JOIN KULLANICI_YETKI ua ON u.ID = ua.KULLANICI_ID
+        JOIN FIRMA c ON ua.ISLEM_NO = c.ID
+        WHERE ua.ISLEM_ADI = @IslemAdi
+          AND ua.KULLANICI_ID = @UserId
+          AND c.ID >= 1";
 
-        var companies = await (
-            from user in _gwSistemDbContext.Users
-            join userAuth in _gwSistemDbContext.UserAuthorizations on user.ID equals userAuth.KULLANICI_ID
-            join company in _gwSistemDbContext.Companies on userAuth.ISLEM_NO equals company.ID
-            where userAuth.ISLEM_ADI == "Firma Yetki"
-               && userAuth.KULLANICI_ID == currentUserID
-               && company.ID >= 1
-            select company.ADI
-        ).Distinct().ToListAsync();
+        using var connection = _sistemDbContext.CreateConnection();
 
-        if (companies.Count > 0)
+        var companies = await connection.QueryAsync<string>(query, new
+        {
+            IslemAdi = "Firma Yetki",
+            UserId = currentUserID
+        });
+
+        if (companies.Any())
         {
             return Ok(companies);
         }
