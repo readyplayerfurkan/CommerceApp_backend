@@ -11,8 +11,10 @@ namespace backend
 
             // Services
             builder.Services.AddScoped<LoginService>();
+            builder.Services.AddScoped<CariService>();
             builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             builder.Services.AddSingleton<SistemDbContext>();
+            builder.Services.AddSingleton<Test2025DbContext>();
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddCors(options =>

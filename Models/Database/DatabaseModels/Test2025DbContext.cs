@@ -14,5 +14,5 @@ public class Test2025DbContext
         _connectionString = _configuration.GetConnectionString("GWTest2025Connection");
     }
 
-    public IDbConnection GetConnection() => new SqlConnection(_connectionString);
+    public IDbConnection CreateConnection() => new SqlConnection(_connectionString);
 }
